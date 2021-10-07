@@ -1,0 +1,23 @@
+.boton{
+    padding: 0.4rem;
+    border-color:pink;
+    background-color: pink;
+    border-radius: 0.6rem;
+    cursor:crosshair;
+    font-weight: 700;
+    font-size: 0.80rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    &:hover{
+        border-color: white;  
+        color: white;  
+        background-color: black;
+        transition: 300ms linear;
+    }
+}
+
+.footer-text{
+    display: block;
+    padding: 1em;
+    size: 100px;
+    
+}
